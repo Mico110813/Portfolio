@@ -5,3 +5,31 @@
 .port-titles {
 	font-family: Garamond, helvetica;
 	}
+	
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+	background: #2a6095;
+}
+/* overrides default color on navbar to stop hover block appearing */
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:active, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
+	background:none;
+}
+a:hover,{
+	background: #2a6095;
+}
+
+/* creates gradient from blue to red on about section*/
+header.masthead {
+	background: linear-gradient(#2a6095, #050948);
+	padding-bottom:15%;
+}
+section.success {
+	background: linear-gradient(#050948,#5D110E)
+}
+hr.star-light:after {
+    color: #5D110E;
+    background-color: transparent;
+}
+hr.star-primary:after {
+    color: #5D110E;
+    background-color: #fff;
+}

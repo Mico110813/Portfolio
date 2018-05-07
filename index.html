@@ -172,21 +172,21 @@
 				<label>Name</label>
 					<input name="first_name" type="text" class="form-control" required/>
 			</div>
-
 			<div class="form-group">
 				<label>Email</label>
 					<input name="email" type="text" class="form-control" required/>
 			</div>
-		
-
 			<div class="form-group">
 				<label>Your message</label>
 				<textarea name="message" type="text" class="form-control" required/></textarea>
 			</div>
-			<div class="form-group">
-				<input type="hidden" name="*honeypot" /><!-- form control to prevent spam-->
-			</div>
-			<button type="submit" class="btn btn-default">Submit Me</button>
+			
+			<input type="hidden" name="*honeypot" /><!-- form control to prevent spam-->
+			<input type="hidden" name="*subject" value="Message from Portfolio" />
+			<input type="hidden" name="*reply" value="email" /><!-- reply to email-->
+            
+            
+			<button type="submit" class="btn btn-default">Submit</button>
 			
 		</form>
 			<!--<form name="sentMessage" id="contactForm" novalidate>

@@ -164,10 +164,31 @@
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
             <!-- github pages doesn't support server side scripting so JS/php contact form won't work. 3rd party contact form through
-			kontactr.com has been used and JS form commented out for the time being-->
-			<script type="text/javascript"> id = 215148; </script>
-			<script type="text/javascript" src="https://kontactr.com/wp.js"></script>
+			enformed.io using a basic form-->
 			
+			
+		<form action="https://www.enformed.io/nfkaev71" method="POST" >
+			<div class="form-group">
+				<label>Name</label>
+					<input name="first_name" type="text" class="form-control" required/>
+			</div>
+
+			<div class="form-group">
+				<label>Email</label>
+					<input name="email" type="text" class="form-control" required/>
+			</div>
+		
+
+			<div class="form-group">
+				<label>Your message</label>
+				<textarea name="message" type="text" class="form-control" required/></textarea>
+			</div>
+			<div class="form-group">
+				<input type="hidden" name="*honeypot" /><!-- form control to prevent spam-->
+			</div>
+			<button type="submit" class="btn btn-default">Submit Me</button>
+			
+		</form>
 			<!--<form name="sentMessage" id="contactForm" novalidate>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
